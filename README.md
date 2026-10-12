@@ -148,9 +148,10 @@ Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 4
 ## Demo
 
 Real capture with these settings (1280×800 @ 30 fps, x264 `superfast`),
-recorded inside the VM — fullscreen animation, converted to GIF:
+recorded inside the VM — window open/close animations plus a live OpenGL
+window, converted to GIF:
 
-![Smooth fullscreen animation recorded at 1280x800 30fps](assets/demo-smooth.gif)
+![Window open and close animations recorded at 1280x800 30fps](assets/demo-smooth.gif)
 
 Still frame from the same recording:
 

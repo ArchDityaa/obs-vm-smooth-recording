@@ -146,9 +146,10 @@ Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 4
 ## Demo
 
 Tangkapan asli dengan setelan ini (1280×800 @ 30 fps, x264 `superfast`),
-direkam di dalam VM — animasi layar penuh, dikonversi ke GIF:
+direkam di dalam VM — animasi buka-tutup jendela plus jendela OpenGL live,
+dikonversi ke GIF:
 
-![Animasi layar penuh yang mulus, direkam pada 1280x800 30fps](assets/demo-smooth.gif)
+![Animasi buka dan tutup jendela yang direkam pada 1280x800 30fps](assets/demo-smooth.gif)
 
 Bingkai diam dari rekaman yang sama:
 
