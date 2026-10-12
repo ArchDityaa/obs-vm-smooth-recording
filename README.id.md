@@ -23,6 +23,7 @@ dengan 0,0 % frame terbuang**, *selagi sesi RDP tetap tersambung*.
 - [Kenapa bisa terjadi](#kenapa-bisa-terjadi)
 - [Langkah demi langkah](#langkah-demi-langkah)
 - [Sebelum / Sesudah](#sebelum--sesudah)
+- [Demo](#demo)
 - [Ukur sendiri](#ukur-sendiri)
 - [Pemecahan masalah](#pemecahan-masalah)
 - [Kapan cara ini tidak cukup](#kapan-cara-ini-tidak-cukup)
@@ -142,6 +143,17 @@ Output 'adv_file_output': Total drawn frames: 4951
 Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 4169 (84.2%)
 ```
 
+## Demo
+
+Tangkapan asli dengan setelan ini (1280×800 @ 30 fps, x264 `superfast`),
+direkam di dalam VM — animasi layar penuh, dikonversi ke GIF:
+
+![Animasi layar penuh yang mulus, direkam pada 1280x800 30fps](assets/demo-smooth.gif)
+
+Bingkai diam dari rekaman yang sama:
+
+![Bingkai diam dari animasi yang direkam](assets/recording-screenshot.png)
+
 ## Ukur sendiri
 
 Tak perlu menebak — OBS menyediakan penghitung yang tepat:
@@ -187,6 +199,8 @@ asli). Pada render software murni, plafon realistisnya sekitar **720p–800p pad
 ```
 README.md                   Dokumen ini
 README.id.md                Versi Bahasa Indonesia
+assets/demo-smooth.gif      GIF demo (tangkapan asli dengan setelan ini)
+assets/recording-screenshot.png  Bingkai diam dari rekaman demo
 docs/diagnosis.md           Membaca log OBS & menemukan botolnya
 docs/vm-wayland-rdp.md      Khusus VM + Wayland + PipeWire + RDP
 docs/reference-settings.md  Alasan tiap setelan

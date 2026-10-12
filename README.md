@@ -23,6 +23,7 @@ VM (≈ 9 fps of a 60 fps target). After the fix it runs at a **stable 30 fps wi
 - [Why it happens](#why-it-happens)
 - [Step by step](#step-by-step)
 - [Before / After](#before--after)
+- [Demo](#demo)
 - [Measure it yourself](#measure-it-yourself)
 - [Troubleshooting](#troubleshooting)
 - [When this won't help](#when-this-wont-help)
@@ -144,6 +145,17 @@ Output 'adv_file_output': Total drawn frames: 4951
 Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 4169 (84.2%)
 ```
 
+## Demo
+
+Real capture with these settings (1280×800 @ 30 fps, x264 `superfast`),
+recorded inside the VM — fullscreen animation, converted to GIF:
+
+![Smooth fullscreen animation recorded at 1280x800 30fps](assets/demo-smooth.gif)
+
+Still frame from the same recording:
+
+![Still frame of the recorded animation](assets/recording-screenshot.png)
+
 ## Measure it yourself
 
 You don't need to guess — OBS exposes exact counters:
@@ -188,6 +200,8 @@ rendering the realistic ceiling is roughly **720p–800p at 25–40 fps**.
 ```
 README.md                   This file
 README.id.md                Indonesian version
+assets/demo-smooth.gif      Demo GIF (real capture with these settings)
+assets/recording-screenshot.png  Still frame from the demo recording
 docs/diagnosis.md           How to read OBS logs and find the bottleneck
 docs/vm-wayland-rdp.md      VM + Wayland + PipeWire + RDP specifics
 docs/reference-settings.md  Why each setting is what it is
