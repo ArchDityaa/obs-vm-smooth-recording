@@ -1,0 +1,12 @@
+{
+    "rate_control": "CRF",
+    "crf": 20,
+    "bitrate": 6000,
+    "buffer_size": 6000,
+    "use_bufsize": false,
+    "preset": "superfast",
+    "profile": "high",
+    "tune": "",
+    "keyint_sec": 2,
+    "x264opts": ""
+}

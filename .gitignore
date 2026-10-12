@@ -1,0 +1,19 @@
+# Recordings
+*.mkv
+*.mp4
+*.flv
+*.mov
+recordings/
+
+# OBS config backups
+*.bak
+*.bak.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / OS
+.DS_Store
+*.swp
+*~
